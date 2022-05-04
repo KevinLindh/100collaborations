@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.playing-field {
+  border: 1px solid #000;
+  /*Size should be responsive*/
+  width: 600px;
+  height: 600px;
+  margin: 1em auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.playing-field > div {
+  border: 1px solid #000;
+  cursor: pointer;
+}
